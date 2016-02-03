@@ -1,5 +1,41 @@
+html {
+  background: url('forest.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  margin: auto auto auto 10px;
+  color: #CD2C24;
+
+  font-size: 64px;
+  font-family: 'Lobster', cursive;
+  letter-spacing: -2.7px; }
+
+.byline {
+font-size: 1.5em; color: #cd2c24;
+
+}
+h2, h3 {
+  color: #CD2C24;
+  margin: 1em; }
+
+#menu{
+  border: 6px solid White;
+  border-radius: 20px;
+  background-color: #cd2c24;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
 body {
+  font-family: sans-serif;color: white;
   padding: 1em;
+}
+.article-body {
+  background-color: #F2E1AC;
+  font-family:cursive; color: black;
 }
 
 main {
@@ -14,4 +50,15 @@ address {
 hr {
   margin: 1em;
   width: 80%;
+}
+
+ul {
+  text-decoration: none;
+}
+li {
+  color: white;
+}
+
+a {
+  color: inherit;
 }
